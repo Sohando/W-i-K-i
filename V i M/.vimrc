@@ -15,6 +15,7 @@ set undodir=~/.vim/undodir
 set undofile
 set incsearch 
 set colorcolumn=80
+set relativenumber
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 call plug#begin('~/.vim/plugged')
@@ -57,3 +58,8 @@ nnoremap <Leader>ps :Rg<SPACE>
 nnoremap <silent> <Leader>+ :vertical resize +5<CR>
 nnoremap <silent> <Leader>- :vertical resize -5<CR>
 
+vnoremap <C-c> "+y
+inoremap kj  <Esc>
+map ttt :bel vert term <CR>
+map cmd :
+map vrz :vertical resize 83 <CR>
