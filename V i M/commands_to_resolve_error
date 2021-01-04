@@ -1,0 +1,9 @@
+/home/r_hasan/.vim/plugged/YouCompleteMe
+
+./install.py --ts-completer
+
+sudo apt install npm
+
+sudo apt-get install python3-dev cmake
+
+ sudo apt-get install build-essential
